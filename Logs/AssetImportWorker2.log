@@ -1,0 +1,1968 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/aayus/Desktop/maveric/maveric vrc world build/drone
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51329
+Successfully changed project path to: C:/Users/aayus/Desktop/maveric/maveric vrc world build/drone
+C:/Users/aayus/Desktop/maveric/maveric vrc world build/drone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10000] Host "[IP] 100.84.3.68 [Port] 0 [Flags] 2 [Guid] 2887706641 [EditorId] 2887706641 [Version] 1048832 [Id] WindowsEditor(7,intelsucks) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10000] Host "[IP] 100.84.3.68 [Port] 0 [Flags] 2 [Guid] 2887706641 [EditorId] 2887706641 [Version] 1048832 [Id] WindowsEditor(7,intelsucks) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 280.81 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 9.56 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aayus/Desktop/maveric/maveric vrc world build/drone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.037286 seconds.
+- Loaded All Assemblies, in  1.194 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 641 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.628 seconds
+Domain Reload Profiling: 2821ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (178ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (182ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (373ms)
+				TypeCache.ScanAssembly (337ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1488ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1117ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.885 seconds
+Refreshing native plugins compatible for Editor in 92.35 ms, found 8 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[<color=#FF00FF>UdonSharp</color>] No Assembly-CSharp assembly found
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UdonSharp.UdonSharpUtils:LogWarning (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:314)
+UdonSharp.Compiler.Udon.CompilerUdonInterface:AssemblyCacheInit () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/Udon/CompilerUdonInterface.cs:176)
+UdonSharp.Compiler.Udon.CompilerUdonInterface:get_UdonSharpAssemblyDefinitions () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/Udon/CompilerUdonInterface.cs:54)
+UdonSharp.Compiler.CompilationContext:IsUdonSharpAssembly (string) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:238)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:208)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
+UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
+UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 314)
+
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(199,1): error CS1022: Type or namespace definition, or end-of-file expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS0106: The modifier 'private' is not valid for this item
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8803: Top-level statements must precede namespace and type declarations.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8370: Feature 'top-level statements' is not available in C# 7.3. Please use language version 9.0 or greater.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,105): error CS1519: Invalid token ')' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,104): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,94): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1519: Invalid token '"Oculus_CrossPlatform_PrimaryThumbstick"' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1031: Type expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,9): error CS1519: Invalid token 'if' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(199,1): error CS1022: Type or namespace definition, or end-of-file expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS0106: The modifier 'private' is not valid for this item
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8803: Top-level statements must precede namespace and type declarations.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8370: Feature 'top-level statements' is not available in C# 7.3. Please use language version 9.0 or greater.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,105): error CS1519: Invalid token ')' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,104): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,94): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1519: Invalid token '"Oculus_CrossPlatform_PrimaryThumbstick"' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1031: Type expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,9): error CS1519: Invalid token 'if' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] U# scripts have compile errors, scene upgrade deferred until script errors are resolved.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:660)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
+- Finished resetting the current domain, in 14.194 seconds
+Domain Reload Profiling: 18073ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (3323ms)
+		LoadAssemblies (2472ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1037ms)
+			TypeCache.Refresh (987ms)
+				TypeCache.ScanAssembly (921ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (14198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3303ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (109ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (2267ms)
+			ProcessInitializeOnLoadMethodAttributes (722ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 74.03 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 2.25 ms.
+Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 142 unused Assets / (341.1 KB). Loaded Objects now: 4038.
+Memory consumption went from 164.5 MB to 164.1 MB.
+Total: 344.284600 ms (FindLiveObjects: 3.330300 ms CreateObjectMapping: 3.980800 ms MarkObjects: 301.537900 ms  DeleteObjects: 35.433100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 489890.324511 seconds.
+  path: Assets/SpeedMonkey_HYPERBIKE.fbx
+  artifactKey: Guid(90333567bbe633d409a6490e54e97a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpeedMonkey_HYPERBIKE.fbx using Guid(90333567bbe633d409a6490e54e97a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb367a24440288e3fae9ea8245c8544') in 0.660740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 93.40 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 2.42 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (270.6 KB). Loaded Objects now: 4049.
+Memory consumption went from 93.6 MB to 93.3 MB.
+Total: 970.068200 ms (FindLiveObjects: 2.308200 ms CreateObjectMapping: 0.605300 ms MarkObjects: 966.386700 ms  DeleteObjects: 0.757600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 49.08 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (270.6 KB). Loaded Objects now: 4049.
+Memory consumption went from 93.8 MB to 93.6 MB.
+Total: 290.052700 ms (FindLiveObjects: 1.160000 ms CreateObjectMapping: 0.379500 ms MarkObjects: 287.822000 ms  DeleteObjects: 0.688300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(199,1): error CS1022: Type or namespace definition, or end-of-file expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS0106: The modifier 'private' is not valid for this item
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8803: Top-level statements must precede namespace and type declarations.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(105,5): error CS8370: Feature 'top-level statements' is not available in C# 7.3. Please use language version 9.0 or greater.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,49): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(102,35): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(101,28): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(100,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,42): error CS1519: Invalid token ';' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(99,32): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,105): error CS1519: Invalid token ')' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,104): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,94): error CS1519: Invalid token '(' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1519: Invalid token '"Oculus_CrossPlatform_PrimaryThumbstick"' in class, record, struct, or interface member declaration
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,33): error CS1031: Type expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS1026: ) expected
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,32): error CS8124: Tuple must contain at least two elements.
+[<color=#FF00FF>UdonSharp</color>] Assets/new_drone.cs(97,9): error CS1519: Invalid token 'if' in class, record, struct, or interface member declaration
+- Loaded All Assemblies, in 12.491 seconds
+Refreshing native plugins compatible for Editor in 103.63 ms, found 8 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: System.IO.IOException: The process cannot access the file 'C:\Users\aayus\Desktop\maveric\maveric vrc world build\drone\Assets\UdonSharp\UtilityScripts\BoneFollower.cs' because it is being used by another process.
+  at System.IO.FileSystem.CopyFile (System.String sourceFullPath, System.String destFullPath, System.Boolean overwrite) [0x00060] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, System.Boolean overwrite) [0x00062] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UdonSharp.Updater.UdonSharpDataLocator.DeepCopyDirectory (System.String sourcePath, System.String destinationPath) [0x00048] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:99 
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x00044] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:70 
+  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
+  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
+  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
+  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
+  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
+  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
+  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
+  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
+  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
+- Finished resetting the current domain, in 10.371 seconds
+Domain Reload Profiling: 22874ms
+	BeginReloadAssembly (7069ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (131ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (10ms)
+		CreateAndSetChildDomain (5477ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (5183ms)
+		LoadAssemblies (2353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2983ms)
+			TypeCache.Refresh (2904ms)
+				TypeCache.ScanAssembly (2131ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (10374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (260ms)
+			SetLoadedEditorAssemblies (32ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (338ms)
+			ProcessInitializeOnLoadAttributes (1751ms)
+			ProcessInitializeOnLoadMethodAttributes (803ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (19ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 102.05 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 2.64 ms.
+Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (310.8 KB). Loaded Objects now: 4064.
+Memory consumption went from 147.7 MB to 147.4 MB.
+Total: 423.053900 ms (FindLiveObjects: 7.815400 ms CreateObjectMapping: 1.384500 ms MarkObjects: 379.370300 ms  DeleteObjects: 33.714200 ms)
+
+Prepare: number of updated asset objects reloaded= 11
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 11.809 seconds
+Refreshing native plugins compatible for Editor in 39.32 ms, found 8 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
+UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
+UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
+UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
+UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
+UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
+UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
+UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
+
+[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
+  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
+  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
+  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
+  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
+  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
+  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
+  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
+  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
+  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
+- Finished resetting the current domain, in  8.751 seconds
+Domain Reload Profiling: 20562ms
+	BeginReloadAssembly (5792ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (211ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (3856ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (5776ms)
+		LoadAssemblies (3416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2543ms)
+			TypeCache.Refresh (2527ms)
+				TypeCache.ScanAssembly (1909ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (8754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3653ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (124ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1831ms)
+			ProcessInitializeOnLoadMethodAttributes (1422ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (8ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Refreshing native plugins compatible for Editor in 60.39 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 3.10 ms.
+Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (311.0 KB). Loaded Objects now: 4088.
+Memory consumption went from 148.4 MB to 148.1 MB.
+Total: 124.824500 ms (FindLiveObjects: 1.856400 ms CreateObjectMapping: 0.785400 ms MarkObjects: 120.165100 ms  DeleteObjects: 2.010800 ms)
+
+Prepare: number of updated asset objects reloaded= 11
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2390.783080 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 5.prefab
+  artifactKey: Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 5.prefab using Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156992bd988b7390b7dbc932041e0b1') in 2.595860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 5.fbx
+  artifactKey: Guid(8ff14926c37cd834483331c0fcf161ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 5.fbx using Guid(8ff14926c37cd834483331c0fcf161ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979dee896e4dec7176d06c776bb6d98d') in 0.291987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006790 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Plant Leaf.png
+  artifactKey: Guid(416e3d5a7443fc244a9c81750a12124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Plant Leaf.png using Guid(416e3d5a7443fc244a9c81750a12124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cc215967a2231935f80e9c78488447') in 0.425551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007993 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx
+  artifactKey: Guid(22394c2ced239844aaa591e316acccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx using Guid(22394c2ced239844aaa591e316acccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d9066b4b7e597b6a9044388149237') in 0.096804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007128 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 4.prefab
+  artifactKey: Guid(03129de0bceaad4418f7f0375b4b3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 4.prefab using Guid(03129de0bceaad4418f7f0375b4b3c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa21af803321447fc914574936e9c5e0') in 0.071669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006595 seconds.
+  path: Assets/bike/Materials/albedo_Seat.mat
+  artifactKey: Guid(5c37fcf5ff089134a9d58aa429cd4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bike/Materials/albedo_Seat.mat using Guid(5c37fcf5ff089134a9d58aa429cd4e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa994e9fb8372f05151049c8288d4ebb') in 0.435540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SerializedUdonPrograms/6b2d1833590dd3d488da2cb6374e6601.asset
+  artifactKey: Guid(71014dc605026794fac75c20fd4e2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/6b2d1833590dd3d488da2cb6374e6601.asset using Guid(71014dc605026794fac75c20fd4e2134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be166c56b01610ff3602a698d3e3140') in 0.005047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014882 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Terrains/Terrain 5.prefab
+  artifactKey: Guid(cc5c88d03147e4649ba476b947a8c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Terrains/Terrain 5.prefab using Guid(cc5c88d03147e4649ba476b947a8c684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832ba8817571e9146896fec4495191fa') in 0.038291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008568 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Mountain/Mountain.fbx
+  artifactKey: Guid(07f7693a22c302246b83507415e1c01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Mountain/Mountain.fbx using Guid(07f7693a22c302246b83507415e1c01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b13c98b88ddd1ec878c97bfee4ab252') in 0.053029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006596 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 3.prefab
+  artifactKey: Guid(ed0cb6b83666ad94ea9fbf08b3ed5d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 3.prefab using Guid(ed0cb6b83666ad94ea9fbf08b3ed5d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee62e7cf2a4b5763cdc1a493318c9136') in 0.030073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005981 seconds.
+  path: Assets/Drone/Art/material/grey.mat
+  artifactKey: Guid(719efd02f6cfa794ea0a203cf90365a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/material/grey.mat using Guid(719efd02f6cfa794ea0a203cf90365a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1320475cbf55e22edfa753cf6f02f82b') in 0.019122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005590 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Flower Leaf.mat
+  artifactKey: Guid(be6a741af13d50f41b8befdd255bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Flower Leaf.mat using Guid(be6a741af13d50f41b8befdd255bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ba1b1c2c1198e62d5e4c7dbbcdd49e') in 0.027531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008515 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7536b380bb9b4b0d44a5af5b7aa64bf6') in 0.002657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006845 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcde51241abbdc644f712ac7dc1266e') in 0.003002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008070 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 3.fbx
+  artifactKey: Guid(532ba82a2de1cfe48aa43db5b44e106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 3.fbx using Guid(532ba82a2de1cfe48aa43db5b44e106f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448f0ad0af080459141419a6fa42e320') in 0.046187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007029 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 4.fbx
+  artifactKey: Guid(b69361bfd5fb91545b4a2a201b2d8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 4.fbx using Guid(b69361bfd5fb91545b4a2a201b2d8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04112d6c47ad32e21572289d84f730b') in 0.037467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007906 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 1.fbx
+  artifactKey: Guid(8bb8a0911dcf8aa4586076b2ca56b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 1.fbx using Guid(8bb8a0911dcf8aa4586076b2ca56b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe468e01937238e4cea9d3f57b713de') in 0.051231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006861 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Plant/Plant.prefab
+  artifactKey: Guid(15f2f61c86005324ab3630e8b1ba2747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Plant/Plant.prefab using Guid(15f2f61c86005324ab3630e8b1ba2747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc030cebe8bf0d954eb79f62de9dc2f6') in 0.027668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007125 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98216a1dec0126f1dc8f60d7b52ea067') in 0.002113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008722 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 1.prefab
+  artifactKey: Guid(b21d66484532de24d9a537a803ad99ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 1.prefab using Guid(b21d66484532de24d9a537a803ad99ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d267e80676e99a8aea3db6a9fac64') in 0.027019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006831 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a64f089bedffd7c51cad9993c8152') in 0.002535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008752 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Terrains/Terrain 1.fbx
+  artifactKey: Guid(8fb927a528801004b96cea67e294a362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Terrains/Terrain 1.fbx using Guid(8fb927a528801004b96cea67e294a362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6294d8724d0ffab10ac608909e770938') in 0.040486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005756 seconds.
+  path: Assets/UdonSharp/UtilityScripts/TrackingDataFollower.cs
+  artifactKey: Guid(cfa6b6afca5fc44419a259edec93cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/TrackingDataFollower.cs using Guid(cfa6b6afca5fc44419a259edec93cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07f0db1a70cce2d74cb5369892f996e') in 0.001776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007507 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 1.fbx
+  artifactKey: Guid(e704bfe2d2939964b879732797a42839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 1.fbx using Guid(e704bfe2d2939964b879732797a42839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cd76e1187db348d49a131f30088727') in 0.061340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006203 seconds.
+  path: Assets/droneMove.cs
+  artifactKey: Guid(279eb1aca49c44a40b2e98700cd6fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/droneMove.cs using Guid(279eb1aca49c44a40b2e98700cd6fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a83ec54d45e014fe11bfb8d387badd') in 0.001902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007952 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 4.fbx
+  artifactKey: Guid(a77ed7f6c78428d41a39c8747044892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 4.fbx using Guid(a77ed7f6c78428d41a39c8747044892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bc2bd059ce6c824bacb73e3afbd425') in 0.036714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005189 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da26e66ed4e72f32eaedc32f1b057798') in 0.001835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005812 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab
+  artifactKey: Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab using Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efe0b63a16e4861cd8e18aa412aa9e5') in 0.022998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006953 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d3fa0383525a97d1caa870629199c7') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005197 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Log/Log.fbx
+  artifactKey: Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Log/Log.fbx using Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce2a04b1deef751b375bb6534211f5') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005284 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 5.prefab
+  artifactKey: Guid(e282280263592284b8c7c955e3517805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 5.prefab using Guid(e282280263592284b8c7c955e3517805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ab2e6a5486dedf07d826503be1cb79') in 0.020488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.010094 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bed097570126b9697bcf4191aa3c903') in 0.003021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008435 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d72fa582181fe300be57731b5d2e91b') in 0.003275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005441 seconds.
+  path: Assets/UdonSharp/UtilityScripts/BoneFollower.cs
+  artifactKey: Guid(d1a6820e86752e14d8227ad846e6ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/BoneFollower.cs using Guid(d1a6820e86752e14d8227ad846e6ab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dc3a1bf782a4049b6d899e7e62b572') in 0.002049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005428 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef19db786b7e70f7b6b7e76306c45213') in 0.002662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005854 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 1.fbx
+  artifactKey: Guid(317bdfde622606a45bea40d7e0c38445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 1.fbx using Guid(317bdfde622606a45bea40d7e0c38445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a9d972994d5cfe72099cfa9612f250') in 0.026597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004296 seconds.
+  path: Assets/UdonSharp/UtilityScripts/PlayerModSetter.cs
+  artifactKey: Guid(b8c59fc0a015dcc4b86d7e90312acf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/PlayerModSetter.cs using Guid(b8c59fc0a015dcc4b86d7e90312acf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bacd58e213c90a5cb12e46bc3f34b6') in 0.001082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005508 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 2.prefab
+  artifactKey: Guid(006e392d17557b045b1e173abb80f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 2.prefab using Guid(006e392d17557b045b1e173abb80f1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6914a97ac804a7331a615c63d9f4d62e') in 0.018990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005365 seconds.
+  path: Assets/UdonSharp/UtilityScripts/Synced/MasterToggleObject.cs
+  artifactKey: Guid(fe5e5216dff1add40961bf62f441e92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/Synced/MasterToggleObject.cs using Guid(fe5e5216dff1add40961bf62f441e92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f6e320f27ec7a67f0b260c076b1aa3') in 0.001281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004981 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7303ee6906838ec0cd9fac2c4f7c3d90') in 0.002333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005679 seconds.
+  path: Assets/uisettings.cs
+  artifactKey: Guid(9a10012da2ff5f842add787e9d91780b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uisettings.cs using Guid(9a10012da2ff5f842add787e9d91780b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ba835250a1592e3742d271c73528d1') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005445 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 3.fbx
+  artifactKey: Guid(b4de1d8c075cc874680574492bb9d2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 3.fbx using Guid(b4de1d8c075cc874680574492bb9d2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5afc2d2ad364193c0d98ed2816e7d7b') in 0.043418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.005145 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b0ead08082f4094ff9d7e11b3bf4a4') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004649 seconds.
+  path: Assets/Drone/Art/animation/Fan Controller.controller
+  artifactKey: Guid(a2c255f835a5f984a931e730b1ed4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/animation/Fan Controller.controller using Guid(a2c255f835a5f984a931e730b1ed4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ab613496bec07b7668c1f134f53774') in 0.040550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.006733 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 1.fbx
+  artifactKey: Guid(32affbf242717ad45a225896a36d070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 1.fbx using Guid(32affbf242717ad45a225896a36d070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450bffe0ad36c1eb3f5356b858b39ee3') in 0.035973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006769 seconds.
+  path: Assets/UdonSharp/UtilityScripts/InteractToggle.cs
+  artifactKey: Guid(c145dd4792c31da4b83d542b11ca2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/InteractToggle.cs using Guid(c145dd4792c31da4b83d542b11ca2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff8a20f9659dbbb18f66306e06fe5a') in 0.001740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008468 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Flower/Flower.fbx
+  artifactKey: Guid(46ceee1e0f8fec547ad8c36842afe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Flower/Flower.fbx using Guid(46ceee1e0f8fec547ad8c36842afe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e247424267292d6125638b4966eda43') in 0.052137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.009480 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 1.prefab
+  artifactKey: Guid(5affa63adb5a6e44ea78a6528f5b7331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 1.prefab using Guid(5affa63adb5a6e44ea78a6528f5b7331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53ba0857f470a96968a4c6be97cf483') in 0.019404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004804 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2adfc548eef82633038ca4b10c0d398') in 0.001511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005068 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 2.prefab
+  artifactKey: Guid(18af26af61ee8234caa44dc89f89d5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 2.prefab using Guid(18af26af61ee8234caa44dc89f89d5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb6e12eba76ff1a2deee1d1523c039e') in 0.023322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006970 seconds.
+  path: Assets/Drone/Art/material/black.mat
+  artifactKey: Guid(ca862d9708fb270498ff25634a51396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/material/black.mat using Guid(ca862d9708fb270498ff25634a51396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8479717788b5db08acea1fe750f08f7') in 0.015314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007982 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Terrains/Terrain 1.prefab
+  artifactKey: Guid(3b8d04aad36504b419b3c68d9fcf7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Terrains/Terrain 1.prefab using Guid(3b8d04aad36504b419b3c68d9fcf7c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c078d20916ba3f1dfb7d66178691e2a6') in 0.021968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008248 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 1.prefab
+  artifactKey: Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 1.prefab using Guid(06573cc19fb2e4a479092a9b4687b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c0007145953f811007d688df47769c') in 0.034640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.005873 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 2.prefab
+  artifactKey: Guid(904c994af20bbf64493c06b741e63cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 2.prefab using Guid(904c994af20bbf64493c06b741e63cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bf4b9d14e6b87bde2c1ec6ff087ef2') in 0.021673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.016452 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 4.fbx
+  artifactKey: Guid(839fc696814e99244bf536e1c5167e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 4.fbx using Guid(839fc696814e99244bf536e1c5167e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096d217338a476aa9729d01beb2bdc45') in 0.039559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006938 seconds.
+  path: Assets/playerBehaviourOnLand.cs
+  artifactKey: Guid(6f0b190b6dec52d42addea85204f3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerBehaviourOnLand.cs using Guid(6f0b190b6dec52d42addea85204f3fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57374602533f5b8130a5250ecd59288b') in 0.001682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006509 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Pine Tree Branch.png
+  artifactKey: Guid(eef8afe969073cd4d9cfb6cc540b93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Pine Tree Branch.png using Guid(eef8afe969073cd4d9cfb6cc540b93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1561a8193672ce0904a4e9f80623b') in 0.030270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006809 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 2.fbx
+  artifactKey: Guid(2f06370038ed47c43a43d7b7e30f7b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 2.fbx using Guid(2f06370038ed47c43a43d7b7e30f7b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa259fca2e43600d6dcc6218ab24dfd2') in 0.033231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007425 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d09a2bccb7bc375b27606892ddd4c') in 0.001907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006803 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab
+  artifactKey: Guid(232241c4030929146b8c0b57349f65a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab using Guid(232241c4030929146b8c0b57349f65a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c966fddb8caf0ef96207711b29b0ce') in 0.029729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008186 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06655fa3169c5e8a51994ec7687b64e4') in 0.001634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006554 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cd4bd87ea4d9db9fa67c73fb5ff3ca') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006003 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx
+  artifactKey: Guid(6d8861f3dd3ad3a4fb0162a75cb991b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 5.fbx using Guid(6d8861f3dd3ad3a4fb0162a75cb991b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbe297b6089fc1c0d12bf7d6181a9e5') in 0.035657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006348 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 3.prefab
+  artifactKey: Guid(8402ea267d711e6439b198a4526755b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Small Rocks/Small Rock 3.prefab using Guid(8402ea267d711e6439b198a4526755b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ccd37722cfa75d922871c48442f039') in 0.028199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006905 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Log/Log.prefab
+  artifactKey: Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Log/Log.prefab using Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7664453cdd27e882647c01f47be120fc') in 0.024078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005949 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 2.fbx
+  artifactKey: Guid(86e3f4a0b1ae1e544889e130b833f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 2.fbx using Guid(86e3f4a0b1ae1e544889e130b833f57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d97e2c3a2ea4c7a1e9ffa5f059eee51') in 0.051935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006783 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab
+  artifactKey: Guid(4462df8489303ba448bfd5971b82232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 5.prefab using Guid(4462df8489303ba448bfd5971b82232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea379be78e01527f28e86052fd6bcc5c') in 0.026158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.010668 seconds.
+  path: Assets/UdonSharp/UtilityScripts/WorldAudioSettings.cs
+  artifactKey: Guid(fdc09c11006c3474f91cfe7e809c9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/WorldAudioSettings.cs using Guid(fdc09c11006c3474f91cfe7e809c9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0d7c909d76bdd0e1a056a7576e19b9') in 0.001233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004590 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adad95b4b0281bd62da45245799f0db8') in 0.001400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005667 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Pine Tree Branch.mat
+  artifactKey: Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Pine Tree Branch.mat using Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9354716342edf5a7cb8db48853d52a') in 0.033408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006871 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 3.fbx
+  artifactKey: Guid(e9b80227b7adfe54a8525c326cf3831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 3.fbx using Guid(e9b80227b7adfe54a8525c326cf3831a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6751089d9a2368e66a3513279b197e9') in 0.038059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.008008 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 2.fbx
+  artifactKey: Guid(67b77b346aeaf4a4eb299f64d1f23ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 2.fbx using Guid(67b77b346aeaf4a4eb299f64d1f23ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135cc9b630c2428d1f3c190f303a4392') in 0.034308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006501 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 3.prefab
+  artifactKey: Guid(284148a5985781342877af69bf326a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 3.prefab using Guid(284148a5985781342877af69bf326a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1330b6c5c3861f88fc637bf16239b') in 0.026951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004917 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd96f4b25b94c130e215405c2f49aaf') in 0.001343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009162 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bb7d3e716510018b64c60bed207fc9') in 0.001641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007545 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e0996d71300714cbbbf6d4260d2d4') in 0.001469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006522 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17b39ab37ff5c4a0c347358e9d790f') in 0.004401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008053 seconds.
+  path: Assets/bike/textures/albedo_Seat.png
+  artifactKey: Guid(9008f2d5214bfe242b26661c61ea241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bike/textures/albedo_Seat.png using Guid(9008f2d5214bfe242b26661c61ea241f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b11ac7b986ab80bbe30e341ff8795f') in 0.047287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016637 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59f9c13e56a79c5d8c66f47116dbc57') in 0.586659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003001 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 2.fbx
+  artifactKey: Guid(ed8ac8265ee7b034ab4f86c74367ebbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 2.fbx using Guid(ed8ac8265ee7b034ab4f86c74367ebbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6622d182e2a09cde10aeff49852469e') in 0.045546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007561 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 2.prefab
+  artifactKey: Guid(89c243b5404a4554985c1d903093fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 2.prefab using Guid(89c243b5404a4554985c1d903093fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c73f42f371368887b2e566953c425') in 0.033798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007471 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Flower.mat
+  artifactKey: Guid(e9427a28f20c6f24083418e09b767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Flower.mat using Guid(e9427a28f20c6f24083418e09b767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6085059664a8bd2ba589ed9154d3f23') in 0.029721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007473 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Flower/Flower.prefab
+  artifactKey: Guid(43999c511a596754fb989ff074c5955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Flower/Flower.prefab using Guid(43999c511a596754fb989ff074c5955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c466ac79c8f8f54fb3252743b53470a6') in 0.065499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.006936 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 1.prefab
+  artifactKey: Guid(37f9aeb2fdaf19f4a8efd7ce8a593dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 1.prefab using Guid(37f9aeb2fdaf19f4a8efd7ce8a593dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c997cfc8a260b3968638a40cab3dc90') in 0.035116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006452 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 4.prefab
+  artifactKey: Guid(81a7d23c8cb63c94cbb1842341b86493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 4.prefab using Guid(81a7d23c8cb63c94cbb1842341b86493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f69f63359911cacf3fac64502628b6') in 0.029207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007741 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Flower Leaf.png
+  artifactKey: Guid(4e1b20f4080510a45883db6795845e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Flower Leaf.png using Guid(4e1b20f4080510a45883db6795845e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ee3b4f2b3b94c497aec37e9000ed5') in 0.031992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004632 seconds.
+  path: Assets/SerializedUdonPrograms/c985d2c4335689f4687929f7f91845aa.asset
+  artifactKey: Guid(5847a9f82b1161e4ab352d82f0176772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/c985d2c4335689f4687929f7f91845aa.asset using Guid(5847a9f82b1161e4ab352d82f0176772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9f5a2c53ffbd2fa6418c327b17ac36') in 0.007757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011083 seconds.
+  path: Assets/SerializedUdonPrograms/d6af0c9c0c1faa54f8a8e3f20cc09013.asset
+  artifactKey: Guid(fde178a4937325a46bdd5db5cc1ad5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/d6af0c9c0c1faa54f8a8e3f20cc09013.asset using Guid(fde178a4937325a46bdd5db5cc1ad5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c804aa96750d602f15c45d8d86a1ae') in 0.002694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006888 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Terrains/Terrain 5.fbx
+  artifactKey: Guid(e0a1ef1d42da33e47af9dc7617913229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Terrains/Terrain 5.fbx using Guid(e0a1ef1d42da33e47af9dc7617913229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718b11ba8549286828016965cc6f25e5') in 0.038161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005130 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Water/Detailed Water.prefab
+  artifactKey: Guid(cdafd6d66f108e740a95731699638c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Water/Detailed Water.prefab using Guid(cdafd6d66f108e740a95731699638c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67250c64a99d56f61891567b754a7fd') in 0.024250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005474 seconds.
+  path: Assets/Drone/Art/animation/Fan Rotation.anim
+  artifactKey: Guid(85e93fac93c19ee4daa894ed59f8c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/animation/Fan Rotation.anim using Guid(85e93fac93c19ee4daa894ed59f8c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54545ca53ef90b82843cfb76229922c8') in 0.002189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007090 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 1.prefab
+  artifactKey: Guid(ed18eacbf5bb4514d8a6b7a36c669520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 1.prefab using Guid(ed18eacbf5bb4514d8a6b7a36c669520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448d6eddedcf7846c1a73fdddcc8136b') in 0.020618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005927 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb50b6d49783de4b967cc88cf77173') in 0.002204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004095 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 3.prefab
+  artifactKey: Guid(f9ba43b4d4d826f47aa990da47cf55a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 3.prefab using Guid(f9ba43b4d4d826f47aa990da47cf55a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bc21e97a7146e8037b8e59e2075778') in 0.022044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006038 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Color Pallet.png
+  artifactKey: Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Color Pallet.png using Guid(3a3ec579ae0a6cd458d30670586415b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332a7679a562a80dab160175116f9d64') in 0.026457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007372 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 5.fbx
+  artifactKey: Guid(af5ec63dcb442574e903c3c48f1eeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 5.fbx using Guid(af5ec63dcb442574e903c3c48f1eeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7217a030368d8ee7223d2d9a9ff53868') in 0.029508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004782 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 4.prefab
+  artifactKey: Guid(5e506b9ce8ec1274cac6a26f50ec2f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 4.prefab using Guid(5e506b9ce8ec1274cac6a26f50ec2f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaa5baa7e3cf939c87056a29318ad9a') in 0.022560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.013972 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bacd7fe72f2c5e23e7d76cf6952053b') in 0.004984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006700 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2619f29da709dcd0c579c6734914d86') in 0.002473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005693 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c518138ec9fedb112b5b80646f29fd2c') in 0.001183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010825 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx
+  artifactKey: Guid(2fdcdf62eef546646a69ae9ead49b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx using Guid(2fdcdf62eef546646a69ae9ead49b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36cb2a5f97795f266e02532c425cf17') in 0.029060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007333 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 5.fbx
+  artifactKey: Guid(86ee0f22c9422db408d4a742ef47036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Trees/Tree 5.fbx using Guid(86ee0f22c9422db408d4a742ef47036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdf83ff05b1212e3c83d25de6e81893') in 0.109911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006495 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 3.fbx
+  artifactKey: Guid(f2423cc9675f945479666075099447dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 3.fbx using Guid(f2423cc9675f945479666075099447dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d77d4cb895cd881dcbc5dfc4064df6a') in 0.046213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004580 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558feb1596c571e012391f45d7cf8453') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005560 seconds.
+  path: Assets/UdonSharp/UtilityScripts/Synced/GlobalToggleObject.cs
+  artifactKey: Guid(a3d8ddeb56f3a0c4daf49fe9d7447a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UdonSharp/UtilityScripts/Synced/GlobalToggleObject.cs using Guid(a3d8ddeb56f3a0c4daf49fe9d7447a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6972a4454901257bec9f6f3f016f9636') in 0.001257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003988 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dfbf01a9393227dbf798dbc2dccec1') in 0.001552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005193 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 1.fbx
+  artifactKey: Guid(11972f337cb1756468f49be2be46cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 1.fbx using Guid(11972f337cb1756468f49be2be46cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991ad16288335071b58dd4d2cd242cb') in 0.034419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004770 seconds.
+  path: Assets/Drone/Art/material/White.mat
+  artifactKey: Guid(91d21386d1235164cb09fa2332de50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/material/White.mat using Guid(91d21386d1235164cb09fa2332de50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3f805a79c1cb07d6666c76f8205990') in 0.019791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004983 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a518a1309cae00e6cbc1d5e952208c8') in 0.000959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004798 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 2.prefab
+  artifactKey: Guid(4de9cfc6da7eef349881466ae54ea745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 2.prefab using Guid(4de9cfc6da7eef349881466ae54ea745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef52f25526442aca9785e7f810bdca') in 0.020717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006550 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Water.mat
+  artifactKey: Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Water.mat using Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d37095cc4ee946a42ada909c7c2e5e') in 0.020253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008467 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Mountain/Mountain.prefab
+  artifactKey: Guid(81d960fe44e3f6b46bcda7b24988e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Mountain/Mountain.prefab using Guid(81d960fe44e3f6b46bcda7b24988e254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fefeeed51d1bbff7eb0b50e25c35dc') in 0.026750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005172 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14feec69f5cd422b5d7dbbb7978505e') in 0.027825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.010472 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Water/Flat Water.fbx
+  artifactKey: Guid(85d113e10ceabf442b1ed61ade7d3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Water/Flat Water.fbx using Guid(85d113e10ceabf442b1ed61ade7d3b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a0df228696550c9119f779e1e99b5d') in 0.025845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.005837 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Plant/Plant.fbx
+  artifactKey: Guid(68807b864dc32f743b2833d765f21510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Plant/Plant.fbx using Guid(68807b864dc32f743b2833d765f21510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f270e71c7d99c94df6fb568bc95c66a8') in 0.030564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5627a60b3d6c268d8bf5ab41e8e63e') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005478 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f26ae7ecd7f65250633ce4bbd2467a7') in 0.001157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005539 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 1.prefab
+  artifactKey: Guid(0c1dc9162f86dac488068fdcb3cf9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Stumps/Stump 1.prefab using Guid(0c1dc9162f86dac488068fdcb3cf9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc158329cb9f240cabf7ceab50a237b') in 0.019562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004695 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 2.fbx
+  artifactKey: Guid(889c8cbe133cd1d42b627578e1974ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 2.fbx using Guid(889c8cbe133cd1d42b627578e1974ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cd0ea6d554a50762d7acf1b98835db') in 0.028157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004668 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 3.prefab
+  artifactKey: Guid(fdd3446cc2b63d44fb714ae3ca931241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Branches/Branch 3.prefab using Guid(fdd3446cc2b63d44fb714ae3ca931241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6568168790526df26192e18d11c4c0') in 0.017262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005708 seconds.
+  path: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  artifactKey: Guid(2e38bf8da6017a1449a0c5523a19fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset using Guid(2e38bf8da6017a1449a0c5523a19fa45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea234069da0a0779b8b3f4a68893afc9') in 0.003316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003963 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Plant Leaf.mat
+  artifactKey: Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Plant Leaf.mat using Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0def5841dd2cfecc63aead99f63de3f4') in 0.016585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005928 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56542a186da17c41761cf887b05a5db6') in 0.001492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013112 seconds.
+  path: Assets/droneScene.unity
+  artifactKey: Guid(937d40c2a4860bb42b060e50734cf299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/droneScene.unity using Guid(937d40c2a4860bb42b060e50734cf299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c6982820b5b6686d8265dad3b86a2') in 0.001432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005105 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 2.fbx
+  artifactKey: Guid(6160a45217001954da9a244df5492da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Branches/Branch 2.fbx using Guid(6160a45217001954da9a244df5492da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97676f80ce03e8adfcfd72f16a0d91d3') in 0.035383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007413 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 1.fbx
+  artifactKey: Guid(22b6c2ed116f0f04b8bd37fac7ca1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 1.fbx using Guid(22b6c2ed116f0f04b8bd37fac7ca1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f76669efe5093b5bb960c22dbb18b3e') in 0.036191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007982 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 5.fbx
+  artifactKey: Guid(f835177881925044588ac045e0053dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Small Rocks/Small Rock 5.fbx using Guid(f835177881925044588ac045e0053dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae798cb1cbf46c9d1fec59f0d52ea34') in 0.037026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007725 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 5.prefab
+  artifactKey: Guid(03cc72561cbb9e546b41049099284b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 5.prefab using Guid(03cc72561cbb9e546b41049099284b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e0a6815b5abebf3cbc9aaea2ad650b') in 0.022012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005805 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab
+  artifactKey: Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab using Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb8a6b483d56e5f88154ecc2ebca12a') in 0.027418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005278 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 4.prefab
+  artifactKey: Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 4.prefab using Guid(2e0bdbada749e6f48b12cd3f5cadc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c80c0dd54c141b77cb20ea1751b02ad') in 0.024128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007478 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 2.prefab
+  artifactKey: Guid(d8e2a32cedcc9ca418f8012539d9e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Terrains/Small Terrains/Small Terrrain 2.prefab using Guid(d8e2a32cedcc9ca418f8012539d9e603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458e7a06e2d3008078e9a34537288f77') in 0.022433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.008637 seconds.
+  path: Assets/SerializedUdonPrograms/453ccc8290abe3d4188e90f245bf7415.asset
+  artifactKey: Guid(2fc844c85aa481e4aba3c91a36be217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/453ccc8290abe3d4188e90f245bf7415.asset using Guid(2fc844c85aa481e4aba3c91a36be217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728d5091412369955f3e58a35768e0a6') in 0.002562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005358 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa53cc0856bade1dfba2bfe22abc2b6') in 0.001744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012569 seconds.
+  path: Assets/playerBehavior_flyDrone.cs
+  artifactKey: Guid(95046604d0b8e0f45aaca40e7815df2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerBehavior_flyDrone.cs using Guid(95046604d0b8e0f45aaca40e7815df2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edbefafaa624c19286123deb401343e') in 0.001059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012779 seconds.
+  path: Assets/rustedbuster/Rusted Buster Cleaned.fbx
+  artifactKey: Guid(d56a598419e17b547a6669bf15f67efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rustedbuster/Rusted Buster Cleaned.fbx using Guid(d56a598419e17b547a6669bf15f67efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5643bdfb5fcc38cfa775c6946a18b026') in 1.725212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 505
+========================================================================
+Received Import Request.
+  Time since last request: 0.004334 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd96f6c673f57343d7e4ccfe9645aec') in 0.003545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005895 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 2.prefab
+  artifactKey: Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 2.prefab using Guid(b0b4c1c1dea91474e80b958446c76e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483f5305f477c6678b74db89808175c9') in 0.037424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.006850 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 3.fbx
+  artifactKey: Guid(3e994bbfcb36e4948ba1743ac30a881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 3.fbx using Guid(3e994bbfcb36e4948ba1743ac30a881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7ed5562a5751fad48646c2accc5749') in 0.037834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.006593 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eee560fc062eae97f09d6c1868372b1') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005777 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 1.fbx
+  artifactKey: Guid(6c123aeb3f537c2478a1028c76518467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Stumps/Stump 1.fbx using Guid(6c123aeb3f537c2478a1028c76518467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d4346b051d297a7b258c3b4e52bd80') in 0.041558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007248 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Color Pallet.mat
+  artifactKey: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Materials/Color Pallet.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104d25c075e0cb9b2dc31de87bdc541e') in 0.027328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006576 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 2.fbx
+  artifactKey: Guid(e8a486218dd2ac246ae071f5159a5e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 2.fbx using Guid(e8a486218dd2ac246ae071f5159a5e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc2c7df91c7a608cf3b3bf2b2f3a05f') in 0.043716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005966 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 4.fbx
+  artifactKey: Guid(10d17fac68c5722419a797069fe6274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Terrains/Small Terrains/Small Terrain 4.fbx using Guid(10d17fac68c5722419a797069fe6274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b605525d94540469cc67fca832b32563') in 0.052012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.010870 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Flower.png
+  artifactKey: Guid(acabc7080beed88498a866b9b521c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Textures/Flower.png using Guid(acabc7080beed88498a866b9b521c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734b93df81508c89955ef5ff72a4d2da') in 0.108381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006374 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099197a930c426f78ab900b06552b9b9') in 0.001924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006152 seconds.
+  path: Assets/new_drone.cs
+  artifactKey: Guid(85f1492236dafbf43b54fbd8485e79d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/new_drone.cs using Guid(85f1492236dafbf43b54fbd8485e79d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d87bd60168b243d45eb9900748ceff') in 0.001369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006878 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Water/Detailed Water.fbx
+  artifactKey: Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Water/Detailed Water.fbx using Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396944a07061883342b200e08b3876dd') in 0.047358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.017823 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 1.prefab
+  artifactKey: Guid(c4e981a1c971f6242b943d74ed0d8a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Mushrooms/Mushroom 1.prefab using Guid(c4e981a1c971f6242b943d74ed0d8a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ae1ca6834411c508c8ba3e073059f') in 0.032227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007963 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab
+  artifactKey: Guid(83145382902cecc4286a4f62b720fb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 1.prefab using Guid(83145382902cecc4286a4f62b720fb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3dcb835ef101544acb598406407bd4') in 0.035397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007958 seconds.
+  path: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  artifactKey: Guid(ab132609069e379469c36b173fed7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset using Guid(ab132609069e379469c36b173fed7eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e4e07a188ce8632783b8416de8c6dc') in 0.005102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005189 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx
+  artifactKey: Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx using Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9455dce5aa7b78134b47cff171ec71f2') in 0.046689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.016681 seconds.
+  path: Assets/Drone/Art/model/drone.fbx
+  artifactKey: Guid(77ec979c4a1053f4fb90fee3d17b240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/model/drone.fbx using Guid(77ec979c4a1053f4fb90fee3d17b240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f9d30980328cffadbde7bfee41261') in 0.277398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.004957 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 3.prefab
+  artifactKey: Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Foliage/Trees/Tree 3.prefab using Guid(ab1a291faed69db41860cdd7b273c28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21831de22f6827aff1331f78b7f27b55') in 0.056451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.007014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969a8494b6dc7d5b482fe2ffbcdfbf30') in 0.001235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005174 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 3.fbx
+  artifactKey: Guid(4ce4b1b8d9ccc0843a6f7cf0368bc615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Foliage/Mushrooms/Mushroom 3.fbx using Guid(4ce4b1b8d9ccc0843a6f7cf0368bc615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b65c3d7e164d20b9e266d06fd94a4b5') in 0.044383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.007648 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Water/Flat Water.prefab
+  artifactKey: Guid(5fefc0dfb09c11f4f8e6f283b9e9aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Water/Flat Water.prefab using Guid(5fefc0dfb09c11f4f8e6f283b9e9aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c063673d5bb6fcc6fcc545933bbc2d') in 0.022069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003780 seconds.
+  path: Assets/SerializedUdonPrograms/e025bef1c29f64348b79531c0a5870b5.asset
+  artifactKey: Guid(bb97288f88cab16438ec36d0fcceee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SerializedUdonPrograms/e025bef1c29f64348b79531c0a5870b5.asset using Guid(bb97288f88cab16438ec36d0fcceee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89887f81466c0548b5934e09379686f6') in 0.001508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006643 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 5.prefab
+  artifactKey: Guid(d0976a0f16cdc8e419422a94ffec72d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Prefabs/Rocks/Rocks/Rock 5.prefab using Guid(d0976a0f16cdc8e419422a94ffec72d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c681f54e44f9a4f586ad74049c52dfd4') in 0.028076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.004587 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc61968114781b1e67e9d902cb3bc06') in 0.002357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008225 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e09bab29dd85fb64c8653c54bd8f0d') in 0.061919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.005844 seconds.
+  path: Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 2.fbx
+  artifactKey: Guid(52c7a961f2d901e4d80b9259664463dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Proxy Games/Low Poly Vegetation Kit Lite/Meshes/Rocks/Rocks/Rock 2.fbx using Guid(52c7a961f2d901e4d80b9259664463dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac29125891c83f754e8103deef494c1') in 0.051524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
